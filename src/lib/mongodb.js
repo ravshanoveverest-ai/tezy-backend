@@ -42,7 +42,7 @@
 import mongoose from 'mongoose';
 
 // Xavfsiz ulanish: Netlify'dagi MONGODB_URI ni o'qib oladi
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://... (lokal test uchun o'z silkangizni qo'ysangiz ham bo'ladi)";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://ravshanoveverest_db_user:Farrux2002@cluster0.sve9a83.mongodb.net/?appName=Cluster0";
 
 if (!MONGODB_URI) {
   throw new Error('Iltimos MONGODB_URI yashirin o\'zgaruvchisini (.env) faylga yoki Netlifyga qo\'shing');
